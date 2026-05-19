@@ -1,10 +1,13 @@
-content:
-  - name: homepage
-    label: Edit Website
-    type: file
-    path: index.html
-    format: html # <-- Trust me this works now
+collections:
+  - name: pages
+    label: Website Pages
+    type: folder
+    path: /
+    format: html
     fields:
+      - name: title
+        label: Page Title
+        type: string
       - name: body
-        label: Website Content
+        label: Main Content
         type: rich-text
