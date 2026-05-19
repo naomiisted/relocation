@@ -1,13 +1,12 @@
+backend:
+  name: git-gateway
+  branch: main
 collections:
   - name: pages
-    label: Website Pages
-    type: folder
-    path: /
+    label: Pages
+    folder: .
     format: html
+    create: true
     fields:
-      - name: title
-        label: Page Title
-        type: string
-      - name: body
-        label: Main Content
-        type: rich-text
+      - { name: title, label: Title, widget: string }
+      - { name: body, label: Body, widget: markdown }
