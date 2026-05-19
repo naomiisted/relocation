@@ -1,0 +1,9 @@
+content:
+  - name: homepage
+    label: Edit Website
+    type: file
+    path: index.html
+    fields:
+      - name: body
+        label: Edit Website Content
+        type: rich-text
