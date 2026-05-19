@@ -3,7 +3,8 @@ content:
     label: Edit Website
     type: file
     path: index.html
+    format: html
     fields:
       - name: body
-        label: Edit Website Content
+        label: Website Content
         type: rich-text
