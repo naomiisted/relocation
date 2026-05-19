@@ -3,7 +3,7 @@ content:
     label: Edit Website
     type: file
     path: index.html
-    format: html
+    format: html # <-- Trust me this works now
     fields:
       - name: body
         label: Website Content
